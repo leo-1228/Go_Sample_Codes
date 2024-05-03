@@ -11,4 +11,7 @@ func main() {
 		sum3 = sum2 + sum2 // 800 (400 + 400)
 	)
 	fmt.Println(sum3)
+	var x = 10
+	x += 5
+	fmt.Println(x)
 }
