@@ -14,4 +14,6 @@ func main() {
 	var x = 10
 	x += 5
 	fmt.Println(x)
+	var y = 3
+	fmt.Println(x > y) // returns 1 (true) because 5 is greater than 3
 }
